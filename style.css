@@ -14,6 +14,12 @@
 *{
     box-sizing: border-box;
 }
+a{
+    text-decoration:none;
+    color: var(--dark-cyan-color);
+    font-weight: 700;
+    font-size: 14px;
+}
 body{
     background-color: var(--cream-color);
     align-items: center;
