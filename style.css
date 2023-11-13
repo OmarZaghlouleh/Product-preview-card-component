@@ -157,13 +157,14 @@ Button img{
     font-size: 14px;
     
 }
-.attribution a{ 
+.attribution .link{ 
     text-decoration:none;
     color: var(--dark-cyan-color);
     font-weight: 700;
+    font-size: 14px;
 }
 
-.attribution a:hover{ 
+.attribution .link:hover{ 
     color: var(--button-color);
     text-decoration: underline;
 }
