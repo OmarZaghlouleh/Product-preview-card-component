@@ -37,9 +37,11 @@ p{
     font-size: 14px;
 }
 
-.main{
+main{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container{
     width: var(--container-width);
@@ -163,18 +165,14 @@ Button img{
     font-size: 14px;
     
 }
-.attribution .link{ 
+.attribution a{ 
     text-decoration:none;
     color: var(--dark-cyan-color);
     font-weight: 700;
     font-size: 14px;
 }
 
-.attribution .link:hover{ 
-    color: var(--button-color);
-    text-decoration: underline;
-}
-a:hover{
+.attribution a:hover{ 
     color: var(--button-color);
     text-decoration: underline;
 }
@@ -237,9 +235,9 @@ Button:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 90%;
         height: 100vh;
-        margin: 20px;
+        margin: 20px 0;
        
     }
     .img-container{
@@ -259,7 +257,8 @@ Button:hover{
     Button{
         margin-bottom: 20px;
     }
-    .attribution{margin-top: 0;
+    .attribution{
+        margin-top: 0;
         margin-bottom: 10px;
     }
 
